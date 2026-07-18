@@ -1,0 +1,8 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "floral-term-72c5",
+  "compatibility_date": "2026-07-19",
+  "assets": {
+    "directory": "./"
+  }
+}
