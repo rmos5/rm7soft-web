@@ -1,13 +1,13 @@
-# RM7Soft Website
+# rm7soft Website
 
 Static website for `rm7soft.com`.
 
 ## Structure
 
-- `index.html` - RM7Soft home page
-- `privacy.html` - RM7Soft privacy policy
-- `support.html` - RM7Soft support page
-- `terms.html` - RM7Soft terms of use
+- `index.html` - rm7soft home page
+- `privacy.html` - rm7soft privacy policy
+- `support.html` - rm7soft support page
+- `terms.html` - rm7soft terms of use
 - `routinerun/` - RoutineRun product pages
 - `assets/` - shared images and CSS
 

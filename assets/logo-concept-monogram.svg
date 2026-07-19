@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
-    <title id="title">RM7Soft logo concept: monogram</title>
-    <desc id="desc">A compact RM7 monogram beside the RM7Soft wordmark.</desc>
+    <title id="title">rm7soft logo concept: monogram</title>
+    <desc id="desc">A compact rm7 monogram beside the rm7soft wordmark.</desc>
     <rect width="720" height="240" rx="28" fill="#f7faf9"/>
     <g transform="translate(64 44)">
         <rect width="152" height="152" rx="30" fill="#172023"/>
@@ -9,7 +9,7 @@
         <path d="M37 131h78" stroke="#d9694f" stroke-width="10" stroke-linecap="round"/>
     </g>
     <g transform="translate(254 78)">
-        <text x="0" y="58" fill="#172023" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="0">RM7Soft</text>
+        <text x="0" y="58" fill="#172023" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="0">rm7soft</text>
         <text x="2" y="98" fill="#637174" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" letter-spacing="0">Intelligent, polished software production</text>
     </g>
 </svg>
