@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RM7Soft Logo Concepts</title>
+    <style>
+        :root {
+            --ink: #172023;
+            --muted: #637174;
+            --line: #d9e2e1;
+            --paper: #f7faf9;
+            --surface: #ffffff;
+            --teal: #1f8f8b;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: var(--ink);
+            background: var(--paper);
+        }
+
+        main {
+            width: min(100%, 1040px);
+            margin: 0 auto;
+            padding: 56px 24px 80px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: clamp(2.4rem, 6vw, 4.5rem);
+            line-height: 1.08;
+            letter-spacing: 0;
+        }
+
+        p {
+            max-width: 680px;
+            margin: 14px 0 0;
+            color: var(--muted);
+            line-height: 1.6;
+        }
+
+        .concept-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 22px;
+            margin-top: 34px;
+        }
+
+        article {
+            padding: 18px;
+            background: var(--surface);
+            border: 1px solid var(--line);
+            border-radius: 8px;
+        }
+
+        img {
+            width: 100%;
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            background: #ffffff;
+        }
+
+        h2 {
+            margin: 18px 0 0;
+            font-size: 1.2rem;
+            line-height: 1.2;
+        }
+
+        .note {
+            margin-top: 30px;
+            padding: 18px;
+            border-left: 4px solid var(--teal);
+            background: #eef5f3;
+        }
+
+        @media (max-width: 760px) {
+            .concept-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>RM7Soft Logo Concepts</h1>
+        <p>Two early vector directions for the parent RM7Soft brand. RoutineRun can keep its own app icon while RM7Soft gets a broader software-company identity.</p>
+
+        <section class="concept-grid" aria-label="Logo concepts">
+            <article>
+                <img src="assets/logo-concept-monogram.svg" alt="RM7Soft monogram logo concept">
+                <h2>Concept A: RM7 Monogram</h2>
+                <p>Best for a compact brand mark, favicon, social avatar, and a strong header lockup.</p>
+            </article>
+
+            <article>
+                <img src="assets/logo-concept-wordmark.svg" alt="RM7Soft wordmark logo concept">
+                <h2>Concept B: Modular Wordmark</h2>
+                <p>Best for a cleaner product-company feel, with the blocks hinting at multiple software products.</p>
+            </article>
+        </section>
+
+        <p class="note">These are intentionally simple SVG drafts. Once you pick a direction, we can refine spacing, colors, and the small mark, then replace the temporary site mark.</p>
+    </main>
+</body>
+</html>
