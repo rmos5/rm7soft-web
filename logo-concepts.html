@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>rm7soft Logo Concepts</title>
+    <title>rm7soft Logo Variants</title>
     <style>
         :root {
             --ink: #172023;
@@ -12,6 +12,8 @@
             --paper: #f7faf9;
             --surface: #ffffff;
             --teal: #1f8f8b;
+            --coral: #d9694f;
+            --gold: #b78b2f;
         }
 
         * {
@@ -26,7 +28,7 @@
         }
 
         main {
-            width: min(100%, 1040px);
+            width: min(100%, 1180px);
             margin: 0 auto;
             padding: 56px 24px 80px;
         }
@@ -39,7 +41,7 @@
         }
 
         p {
-            max-width: 680px;
+            max-width: 760px;
             margin: 14px 0 0;
             color: var(--muted);
             line-height: 1.6;
@@ -59,17 +61,38 @@
             border-radius: 8px;
         }
 
-        img {
-            width: 100%;
+        .logo-frame {
+            display: grid;
+            place-items: center;
+            min-height: 210px;
             border: 1px solid var(--line);
             border-radius: 8px;
             background: #ffffff;
+            overflow: hidden;
+        }
+
+        .logo-frame.dark {
+            background: var(--ink);
+        }
+
+        svg {
+            width: 100%;
+            height: auto;
+            display: block;
         }
 
         h2 {
             margin: 18px 0 0;
-            font-size: 1.2rem;
+            font-size: 1.08rem;
             line-height: 1.2;
+        }
+
+        .tag {
+            display: inline-block;
+            margin-top: 10px;
+            color: var(--teal);
+            font-size: 0.82rem;
+            font-weight: 700;
         }
 
         .note {
@@ -88,24 +111,181 @@
 </head>
 <body>
     <main>
-        <h1>rm7soft Logo Concepts</h1>
-        <p>Two early vector directions for the parent rm7soft brand. RoutineRun can keep its own app icon while rm7soft gets a broader software-company identity.</p>
+        <h1>rm7soft Logo Variants</h1>
+        <p>Ten quick vector directions for the parent rm7soft brand. These are intentionally simple and editable, so the best idea can be refined without fighting a bitmap logo.</p>
 
-        <section class="concept-grid" aria-label="Logo concepts">
+        <section class="concept-grid" aria-label="Logo variants">
             <article>
-                <img src="assets/logo-concept-monogram.svg" alt="rm7soft monogram logo concept">
-                <h2>Concept A: rm7 monogram</h2>
-                <p>Best for a compact brand mark, favicon, social avatar, and a strong header lockup.</p>
+                <div class="logo-frame">
+                    <svg viewBox="0 0 620 210" role="img" aria-labelledby="logo1-title">
+                        <title id="logo1-title">rm7soft monogram shield</title>
+                        <rect x="48" y="39" width="132" height="132" rx="28" fill="#172023"/>
+                        <path d="M78 133V74h29c13 0 22 7.8 22 19.8 0 7.7-3.8 13.9-10.3 17.1l16.2 22.1h-16.7l-13.6-18.7H93.8V133H78Zm15.8-32.3h12.8c4.4 0 7.1-2.6 7.1-6.7s-2.7-6.7-7.1-6.7H93.8v13.4Z" fill="#fff"/>
+                        <path d="M128.4 133 149.6 88h-23.3V74h43.2v11.4L146.8 133h-18.4Z" fill="#61c5bd"/>
+                        <text x="212" y="115" fill="#172023" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">rm7soft</text>
+                        <text x="214" y="146" fill="#637174" font-family="Arial, Helvetica, sans-serif" font-size="18">intelligent software production</text>
+                    </svg>
+                </div>
+                <h2>01. Monogram Shield</h2>
+                <span class="tag">strong favicon candidate</span>
+                <p>Compact and practical. Best if the brand needs to feel established and product-company serious.</p>
             </article>
 
             <article>
-                <img src="assets/logo-concept-wordmark.svg" alt="rm7soft wordmark logo concept">
-                <h2>Concept B: Modular Wordmark</h2>
-                <p>Best for a cleaner product-company feel, with the blocks hinting at multiple software products.</p>
+                <div class="logo-frame">
+                    <svg viewBox="0 0 620 210" role="img" aria-labelledby="logo2-title">
+                        <title id="logo2-title">rm7soft angled seven wordmark</title>
+                        <text x="56" y="118" fill="#172023" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">rm</text>
+                        <path d="M153 57h83l-49 83h-25l36-61h-45Z" fill="#1f8f8b"/>
+                        <text x="247" y="118" fill="#172023" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">soft</text>
+                        <path d="M58 142h390" stroke="#d9e2e1" stroke-width="4" stroke-linecap="round"/>
+                        <path d="M58 151h128" stroke="#d9694f" stroke-width="6" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h2>02. Angled Seven Wordmark</h2>
+                <span class="tag">cleanest header mark</span>
+                <p>The custom seven carries the identity while the lowercase wordmark stays calm and readable.</p>
+            </article>
+
+            <article>
+                <div class="logo-frame">
+                    <svg viewBox="0 0 620 210" role="img" aria-labelledby="logo3-title">
+                        <title id="logo3-title">rm7soft modular product grid</title>
+                        <g transform="translate(62 52)">
+                            <rect x="0" y="0" width="34" height="34" rx="8" fill="#172023"/>
+                            <rect x="44" y="0" width="34" height="34" rx="8" fill="#1f8f8b"/>
+                            <rect x="88" y="0" width="34" height="34" rx="8" fill="#d9694f"/>
+                            <rect x="88" y="44" width="34" height="34" rx="8" fill="#172023"/>
+                            <rect x="88" y="88" width="34" height="34" rx="8" fill="#1f8f8b"/>
+                        </g>
+                        <text x="224" y="112" fill="#172023" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">rm7soft</text>
+                        <text x="226" y="144" fill="#637174" font-family="Arial, Helvetica, sans-serif" font-size="18">complete products, practical workflows</text>
+                    </svg>
+                </div>
+                <h2>03. Modular Product Grid</h2>
+                <span class="tag">multi-product signal</span>
+                <p>Small product tiles form a subtle seven, which fits the idea of a software catalog.</p>
+            </article>
+
+            <article>
+                <div class="logo-frame dark">
+                    <svg viewBox="0 0 620 210" role="img" aria-labelledby="logo4-title">
+                        <title id="logo4-title">rm7soft dark studio lockup</title>
+                        <circle cx="120" cy="105" r="54" fill="none" stroke="#61c5bd" stroke-width="12"/>
+                        <path d="M92 82h57l-34 54" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+                        <text x="206" y="113" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">rm7soft</text>
+                        <text x="208" y="144" fill="#b8c7c6" font-family="Arial, Helvetica, sans-serif" font-size="18">polished software for real use</text>
+                    </svg>
+                </div>
+                <h2>04. Dark Studio Lockup</h2>
+                <span class="tag">premium software studio</span>
+                <p>More atmospheric and brand-like. Good for dark headers, social banners, and presentation slides.</p>
+            </article>
+
+            <article>
+                <div class="logo-frame">
+                    <svg viewBox="0 0 620 210" role="img" aria-labelledby="logo5-title">
+                        <title id="logo5-title">rm7soft orbit nodes</title>
+                        <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M78 130 126 78h70l-49 55" stroke="#172023" stroke-width="13"/>
+                            <path d="M126 78h70" stroke="#1f8f8b" stroke-width="13"/>
+                            <circle cx="78" cy="130" r="10" fill="#d9694f" stroke="none"/>
+                            <circle cx="126" cy="78" r="10" fill="#1f8f8b" stroke="none"/>
+                            <circle cx="196" cy="78" r="10" fill="#172023" stroke="none"/>
+                        </g>
+                        <text x="238" y="112" fill="#172023" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">rm7soft</text>
+                        <text x="240" y="144" fill="#637174" font-family="Arial, Helvetica, sans-serif" font-size="18">connected, intelligent systems</text>
+                    </svg>
+                </div>
+                <h2>05. Connected Nodes</h2>
+                <span class="tag">API and systems friendly</span>
+                <p>Hints at software architecture, integrations, accounts, and future platform features.</p>
+            </article>
+
+            <article>
+                <div class="logo-frame">
+                    <svg viewBox="0 0 620 210" role="img" aria-labelledby="logo6-title">
+                        <title id="logo6-title">rm7soft terminal mark</title>
+                        <rect x="58" y="53" width="140" height="104" rx="18" fill="#172023"/>
+                        <path d="M90 87 113 105 90 123" fill="none" stroke="#61c5bd" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M128 123h36" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+                        <text x="236" y="113" fill="#172023" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">rm7soft</text>
+                        <text x="238" y="144" fill="#637174" font-family="Arial, Helvetica, sans-serif" font-size="18">software built with care</text>
+                    </svg>
+                </div>
+                <h2>06. Terminal Product Mark</h2>
+                <span class="tag">developer-oriented</span>
+                <p>A more explicit software cue. Strong for technical credibility, less unique as a long-term brand.</p>
+            </article>
+
+            <article>
+                <div class="logo-frame">
+                    <svg viewBox="0 0 620 210" role="img" aria-labelledby="logo7-title">
+                        <title id="logo7-title">rm7soft folded seven</title>
+                        <path d="M66 65h126l-67 86" fill="none" stroke="#172023" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M116 151h59" stroke="#1f8f8b" stroke-width="20" stroke-linecap="round"/>
+                        <path d="M192 65 125 151" stroke="#d9694f" stroke-width="8" stroke-linecap="round"/>
+                        <text x="238" y="113" fill="#172023" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">rm7soft</text>
+                        <text x="240" y="144" fill="#637174" font-family="Arial, Helvetica, sans-serif" font-size="18">simple, finished, reliable</text>
+                    </svg>
+                </div>
+                <h2>07. Folded Seven</h2>
+                <span class="tag">distinct symbol</span>
+                <p>Abstract enough to become ownable, with the seven as the main visual signature.</p>
+            </article>
+
+            <article>
+                <div class="logo-frame">
+                    <svg viewBox="0 0 620 210" role="img" aria-labelledby="logo8-title">
+                        <title id="logo8-title">rm7soft split system wordmark</title>
+                        <text x="60" y="113" fill="#172023" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">rm</text>
+                        <rect x="146" y="60" width="76" height="76" rx="18" fill="#eef5f3" stroke="#9ec4c1" stroke-width="3"/>
+                        <path d="M166 82h39l-25 35" fill="none" stroke="#1f8f8b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+                        <text x="244" y="113" fill="#172023" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">soft</text>
+                        <text x="62" y="144" fill="#637174" font-family="Arial, Helvetica, sans-serif" font-size="18">friendly software, professional finish</text>
+                    </svg>
+                </div>
+                <h2>08. Split System Wordmark</h2>
+                <span class="tag">balanced and friendly</span>
+                <p>The boxed seven becomes a reusable mark while the word stays readable at small sizes.</p>
+            </article>
+
+            <article>
+                <div class="logo-frame">
+                    <svg viewBox="0 0 620 210" role="img" aria-labelledby="logo9-title">
+                        <title id="logo9-title">rm7soft precision underline</title>
+                        <text x="66" y="112" fill="#172023" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700">rm7soft</text>
+                        <path d="M69 130h108" stroke="#1f8f8b" stroke-width="8" stroke-linecap="round"/>
+                        <path d="M194 130h58" stroke="#d9694f" stroke-width="8" stroke-linecap="round"/>
+                        <path d="M269 130h158" stroke="#d9e2e1" stroke-width="8" stroke-linecap="round"/>
+                        <text x="68" y="160" fill="#637174" font-family="Arial, Helvetica, sans-serif" font-size="18">intelligent products for everyday work</text>
+                    </svg>
+                </div>
+                <h2>09. Precision Underline</h2>
+                <span class="tag">most conservative</span>
+                <p>A wordmark-first route. Minimal risk, easy to apply, but less distinctive than a symbol-led mark.</p>
+            </article>
+
+            <article>
+                <div class="logo-frame dark">
+                    <svg viewBox="0 0 620 210" role="img" aria-labelledby="logo10-title">
+                        <title id="logo10-title">rm7soft app tile family</title>
+                        <g transform="translate(70 57)">
+                            <rect x="0" y="0" width="96" height="96" rx="22" fill="#ffffff"/>
+                            <path d="M24 34h48l-28 42" fill="none" stroke="#172023" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M24 34h48" stroke="#1f8f8b" stroke-width="12" stroke-linecap="round"/>
+                        </g>
+                        <text x="210" y="113" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">rm7soft</text>
+                        <text x="212" y="144" fill="#b8c7c6" font-family="Arial, Helvetica, sans-serif" font-size="18">one studio, multiple products</text>
+                    </svg>
+                </div>
+                <h2>10. App Tile Family</h2>
+                <span class="tag">product family ready</span>
+                <p>Works if each future product gets its own icon but shares a common rm7soft parent style.</p>
             </article>
         </section>
 
-        <p class="note">These are intentionally simple SVG drafts. Once you pick a direction, we can refine spacing, colors, and the small mark, then replace the temporary site mark.</p>
+        <p class="note">This page is a private-ish draft gallery: it is not linked from the main site navigation. Pick a favorite number or mix parts from several, and we can refine the winner into the actual site logo.</p>
     </main>
 </body>
 </html>
