@@ -1,15 +1,15 @@
 :root {
     color-scheme: light;
-    --ink: #172023;
-    --muted: #637174;
-    --line: #d9e2e1;
-    --paper: #f7faf9;
+    --ink: #10243d;
+    --muted: #5f6f83;
+    --line: #d8e3ef;
+    --paper: #f6f9fd;
     --surface: #ffffff;
-    --teal: #1f8f8b;
-    --teal-dark: #176865;
-    --coral: #d9694f;
-    --gold: #b78b2f;
-    --shadow: 0 22px 70px rgba(23, 32, 35, 0.14);
+    --teal: #136fd6;
+    --teal-dark: #0b4fa7;
+    --coral: #24b7ee;
+    --gold: #2f8ee8;
+    --shadow: 0 22px 70px rgba(16, 36, 61, 0.14);
     --max: 1120px;
 }
 
@@ -88,6 +88,12 @@ a {
     box-shadow: 0 8px 20px rgba(13, 30, 36, 0.14);
 }
 
+.brand-logo {
+    width: 146px;
+    max-width: 42vw;
+    height: auto;
+}
+
 .brand-product-icon {
     width: 38px;
     height: 38px;
@@ -158,6 +164,12 @@ a {
     max-width: 620px;
 }
 
+.hero-logo {
+    width: min(430px, 76vw);
+    margin-bottom: 24px;
+    mix-blend-mode: multiply;
+}
+
 .eyebrow {
     margin: 0 0 12px;
     color: var(--teal-dark);
@@ -193,7 +205,7 @@ p {
 
 .lede {
     margin-top: 22px;
-    color: #344044;
+    color: #31465f;
     font-size: clamp(1.12rem, 2vw, 1.35rem);
     max-width: 570px;
 }
@@ -291,7 +303,7 @@ p {
     border-radius: 18px;
     background: #eef5f3;
     color: var(--teal-dark);
-    border: 1px dashed #9ec4c1;
+    border: 1px dashed #97bfe8;
     font-size: 2rem;
     font-weight: 700;
 }
@@ -377,7 +389,7 @@ p {
 
 .device-panel {
     padding: 24px;
-    background: #eef5f3;
+    background: #edf6ff;
     border: 1px solid var(--line);
     border-radius: 8px;
     box-shadow: var(--shadow);
@@ -429,8 +441,8 @@ p {
     margin-top: 22px;
     padding: 18px;
     border-left: 4px solid var(--gold);
-    background: #fffaf0;
-    color: #51472f;
+    background: #eef6ff;
+    color: #27435f;
 }
 
 .site-footer {

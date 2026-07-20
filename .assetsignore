@@ -2,6 +2,7 @@
 .github
 .wrangler
 node_modules
+.codex-remote-attachments
 .assetsignore
 .gitattributes
 .gitignore
