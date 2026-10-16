@@ -26,16 +26,16 @@ Website content was checked against the sibling `RmSoftTimers2` project on Octob
 - `assets/routinerun-icon.png` is the official Google Play icon from `RoutineRun.App.Maui/Resources/Store/GooglePlay/routine-run-play-icon-512.png`.
 - `assets/routinerun-brand.png` is the official feature graphic from the same directory.
 - RoutineRun's brand blue is `#000CCC`.
-- RoutineRun is in development. Android and Windows preview requests go to `routinerun@rm7soft.com`; access is reviewed and granted individually.
+- RoutineRun is in development. Android preview requests go to `routinerun@rm7soft.com`; access is reviewed and granted individually.
 - The old `routinerun-hero.png` illustration is not used: it is not a current app screenshot.
 
 When updating product details, verify them against the app source and replace imagery with official assets or actual screenshots.
 
 ## Private preview access
 
-- The website provides an email request, not a public APK link. Requests include name, organization if relevant, evaluation purpose, platform, device/OS, and a Google account email for Android Drive access.
+- The website provides an email request, not a public APK link. Requests include name, organization if relevant, evaluation purpose, Android device/version, and a Google account email. A Google account is required for the private Drive download, and visitors are told this before requesting access.
 - Review each request before granting access. Reply with the private build link, requirements, and installation/update instructions for that build.
-- Current Android preview requirements: Android 6.0+ (API 23), ARM64 (`arm64-v8a`) only. Confirm Windows availability individually.
+- Current Android preview requirements: Android 6.0+ (API 23), ARM64 (`arm64-v8a`) only. The preview is currently Android-only.
 
 Keep APKs outside this repository. In Google Drive, set both the release folder and the APK's General access to **Restricted**, and grant Viewer access only to approved recipients. Check inherited folder access as well. Removing a website link does not revoke an existing public Drive link or copies already downloaded. Verify that a signed-out visitor cannot access the file.
 
