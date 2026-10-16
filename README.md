@@ -33,9 +33,9 @@ When updating product details, verify them against the app source and replace im
 
 ## Private preview access
 
-- The website provides an email request, not a public APK link. Requests include name, organization if relevant, evaluation purpose, Android device/version, and a Google account email. A Google account is required for the private Drive download, and visitors are told this before requesting access.
+- The website provides an email request, not a public APK link. Requests include name, Android device or emulator/version, and a Google account email. Organization and evaluation purpose are explicitly optional; architecture (ARM64 or x64) is requested only if known. A Google account is required for the private Drive download, and visitors are told this before requesting access.
 - Review each request before granting access. Reply with the private build link, requirements, and installation/update instructions for that build.
-- Current Android preview requirements: Android 6.0+ (API 23), ARM64 (`arm64-v8a`) only. The preview is currently Android-only.
+- The preview is Android-only, requiring Android 6.0+ (API 23). The currently shared APK is ARM64 (`arm64-v8a`). Android x64 (`x86_64`) users can request a compatible build; confirm availability after building and testing it. The website must not imply the existing ARM64 APK also supports x64.
 
 Keep APKs outside this repository. In Google Drive, set both the release folder and the APK's General access to **Restricted**, and grant Viewer access only to approved recipients. Check inherited folder access as well. Removing a website link does not revoke an existing public Drive link or copies already downloaded. Verify that a signed-out visitor cannot access the file.
 
