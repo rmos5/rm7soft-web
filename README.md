@@ -26,17 +26,17 @@ Website content was checked against the sibling `RmSoftTimers2` project on Octob
 - `assets/routinerun-icon.png` is the official Google Play icon from `RoutineRun.App.Maui/Resources/Store/GooglePlay/routine-run-play-icon-512.png`.
 - `assets/routinerun-brand.png` is the official feature graphic from the same directory.
 - RoutineRun's brand blue is `#000CCC`.
-- Android downloads use the approved Google Drive release link. Windows availability remains an email contact.
+- RoutineRun is in development. Android and Windows preview requests go to `routinerun@rm7soft.com`; access is reviewed and granted individually.
 - The old `routinerun-hero.png` illustration is not used: it is not a current app screenshot.
 
 When updating product details, verify them against the app source and replace imagery with official assets or actual screenshots.
 
-## Android download
+## Private preview access
 
-- Release: `1.2480.2113.48`, October 15, 2026.
-- File: `RoutineRun-20261015-211347-release.apk`, 24,317,076 bytes (23.19 MiB).
-- Requirements: Android 6.0+ (API 23), ARM64 (`arm64-v8a`) only.
-- Download: https://drive.google.com/file/d/1atn0XRdBTP0DDvldHQXmGtJ2Yq4l6RCw/view
-- SHA-256: `112a38b0e7cd47119d929ada496698d42be834066897508530b2d39e8731a950`.
+- The website provides an email request, not a public APK link. Requests include name, organization if relevant, evaluation purpose, platform, device/OS, and a Google account email for Android Drive access.
+- Review each request before granting access. Reply with the private build link, requirements, and installation/update instructions for that build.
+- Current Android preview requirements: Android 6.0+ (API 23), ARM64 (`arm64-v8a`) only. Confirm Windows availability individually.
 
-The APK is kept in the dedicated Google Drive `RoutineRun Releases` folder, outside this repository. Share only approved public releases with viewer/download access. For each new release, verify the signature, version, architecture, size, and checksum; update the Drive links and release details together. Test the download without signing in before deploying. Google Drive can show a virus-scan confirmation for APK files.
+Keep APKs outside this repository. In Google Drive, set both the release folder and the APK's General access to **Restricted**, and grant Viewer access only to approved recipients. Check inherited folder access as well. Removing a website link does not revoke an existing public Drive link or copies already downloaded. Verify that a signed-out visitor cannot access the file.
+
+For each shared preview, verify the version, signature, architecture, size, and checksum, and test its installation/update behavior. Do not promise that a preview can update an existing installation without first checking compatibility. Keep signing keys and their backups separate from shared builds.
