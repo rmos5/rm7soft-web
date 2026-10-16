@@ -33,7 +33,7 @@ When updating product details, verify them against the app source and replace im
 
 ## Private preview access
 
-- The website provides an email request and an "Open preview download" button for previously approved users. The button opens the restricted ARM64 APK in Google Drive; publishing its URL does not grant access. Separate x64 builds are linked by email when available. Requests include name, Android device or emulator/version, and a Google account email. Organization and evaluation purpose are explicitly optional; architecture (ARM64 or x64) is requested only if known. A Google account is required for the private Drive download, and visitors are told this before requesting access.
+- The website provides an email request and an "Open download" button for previously approved users. The button opens the restricted ARM64 APK in Google Drive; publishing its URL does not grant access. Separate x64 builds are linked by email when available. Requests include name, Android device or emulator/version, and a Google account email. Organization and evaluation purpose are explicitly optional; architecture (ARM64 or x64) is requested only if known. A Google account is required for the private Drive download, and visitors are told this before requesting access.
 - Review each request before granting access. Reply with the private build link, requirements, and installation/update instructions for that build.
 - The preview is Android-only, requiring Android 6.0+ (API 23). The currently shared APK is ARM64 (`arm64-v8a`). Android x64 (`x86_64`) users can request a compatible build; confirm availability after building and testing it. The website must not imply the existing ARM64 APK also supports x64.
 
