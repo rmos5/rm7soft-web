@@ -21,12 +21,14 @@ Pushes to the GitHub `main` branch automatically trigger Cloudflare Workers Buil
 
 ## RoutineRun content and branding
 
-Website content was checked against the sibling `RmSoftTimers2` project on October 14, 2026: the routine action and plan documentation, current run controls, localization resources, and Android notification implementation.
+Website content was checked against the sibling `RmSoftTimers2` project on October 16, 2026: background shortcut options, shared playback, notification controls, localization resources, and Android requirements. The latest local APK inspected was `RoutineRun-20261016-231531-release.apk`, version `1.2481.2315.33` (versionCode `1792181733`), Android API 23+, ARM64 only. This inspection does not establish which file version the restricted Drive URL currently serves.
 
 - `assets/routinerun-icon.png` is the official Google Play icon from `RoutineRun.App.Maui/Resources/Store/GooglePlay/routine-run-play-icon-512.png`.
 - `assets/routinerun-brand.png` is the official feature graphic from the same directory.
 - RoutineRun's brand blue is `#000CCC`.
 - RoutineRun is in development. Android preview requests go to `routinerun@rm7soft.com`; access is reviewed and granted individually.
+- Background shortcuts support routines and plans, with optional automatic start; routine shortcuts also offer Repeat. Pinning requires Android 8+, launcher support, and enabled notifications for background mode.
+- Expanded notifications offer Previous, Play/Pause, Next, Repeat, and Close. Navigation and Close are disabled while running; pause first. Automatic start is off by default. Do not promise survival after force-stop or device-specific task removal without device verification.
 - The old `routinerun-hero.png` illustration is not used: it is not a current app screenshot.
 
 When updating product details, verify them against the app source and replace imagery with official assets or actual screenshots.
