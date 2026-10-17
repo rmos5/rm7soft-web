@@ -42,3 +42,7 @@ When updating product details, verify them against the app source and replace im
 Keep APKs outside this repository. In Google Drive, set both the release folder and the APK's General access to **Restricted**, and grant Viewer access only to approved recipients. Check inherited folder access as well. Removing a website link does not revoke an existing public Drive link or copies already downloaded. Verify that a signed-out visitor cannot access the file.
 
 For each shared preview, verify the version, signature, architecture, size, and checksum, and test its installation/update behavior. Do not promise that a preview can update an existing installation without first checking compatibility. Keep signing keys and their backups separate from shared builds.
+
+## Website visual design
+
+The October 17 design uses the owner's supplied rm7soft banner as a visual reference: dark navy, electric blue, fine wave lines, and the headline "Thoughtful software. Simple experiences." The headline and wordmark are live text for responsive sizing. `assets/rm7soft-code-mark.svg` and `assets/brand-waves.svg` are lightweight vector artwork made for this layout. RoutineRun retains its official timer icon and feature graphic. Shared styles cover product, support, and legal pages; private-preview links and access requirements are preserved. The supplied profile silhouette is not used.

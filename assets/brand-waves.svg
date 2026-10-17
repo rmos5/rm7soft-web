@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 680" fill="none">
+  <defs>
+    <linearGradient id="wave" x1="0" y1="500" x2="1440" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1029c9" stop-opacity="0"/>
+      <stop offset=".35" stop-color="#2443ff" stop-opacity=".5"/>
+      <stop offset=".72" stop-color="#24c6ff" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#2d46ff" stop-opacity=".25"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop stop-color="#1244ed" stop-opacity=".28"/><stop offset="1" stop-color="#1244ed" stop-opacity="0"/></radialGradient>
+  </defs>
+  <ellipse cx="1140" cy="350" rx="550" ry="310" fill="url(#glow)"/>
+  <g stroke="url(#wave)" stroke-width="1.1"><path d="M-80 310 C240 170, 340 480, 650 345 S1050 130, 1480 20"/><path d="M-80 317 C240 177, 340 487, 650 352 S1050 134, 1480 32"/><path d="M-80 324 C240 184, 340 494, 650 359 S1050 138, 1480 44"/><path d="M-80 331 C240 191, 340 501, 650 366 S1050 142, 1480 56"/><path d="M-80 338 C240 198, 340 508, 650 373 S1050 146, 1480 68"/><path d="M-80 345 C240 205, 340 515, 650 380 S1050 150, 1480 80"/><path d="M-80 352 C240 212, 340 522, 650 387 S1050 154, 1480 92"/><path d="M-80 359 C240 219, 340 529, 650 394 S1050 158, 1480 104"/><path d="M-80 366 C240 226, 340 536, 650 401 S1050 162, 1480 116"/><path d="M-80 373 C240 233, 340 543, 650 408 S1050 166, 1480 128"/><path d="M-80 380 C240 240, 340 550, 650 415 S1050 170, 1480 140"/><path d="M-80 387 C240 247, 340 557, 650 422 S1050 174, 1480 152"/><path d="M-80 394 C240 254, 340 564, 650 429 S1050 178, 1480 164"/><path d="M-80 401 C240 261, 340 571, 650 436 S1050 182, 1480 176"/><path d="M-80 408 C240 268, 340 578, 650 443 S1050 186, 1480 188"/><path d="M-80 415 C240 275, 340 585, 650 450 S1050 190, 1480 200"/><path d="M-80 422 C240 282, 340 592, 650 457 S1050 194, 1480 212"/><path d="M-80 429 C240 289, 340 599, 650 464 S1050 198, 1480 224"/><path d="M-80 436 C240 296, 340 606, 650 471 S1050 202, 1480 236"/><path d="M-80 443 C240 303, 340 613, 650 478 S1050 206, 1480 248"/><path d="M-80 450 C240 310, 340 620, 650 485 S1050 210, 1480 260"/><path d="M-80 457 C240 317, 340 627, 650 492 S1050 214, 1480 272"/></g>
+  <g fill="#143aff" fill-opacity=".1" stroke="#395dff" stroke-opacity=".2">
+    <rect x="1100" y="100" width="56" height="56" rx="12"/>
+    <rect x="1258" y="38" width="82" height="82" rx="18"/>
+    <rect x="1026" y="200" width="24" height="24" rx="6"/>
+    <rect x="1165" y="520" width="76" height="76" rx="16"/>
+  </g>
+</svg>
