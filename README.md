@@ -21,7 +21,7 @@ Pushes to the GitHub `main` branch automatically trigger Cloudflare Workers Buil
 
 ## RoutineRun content and branding
 
-Website content was checked against the sibling `RmSoftTimers2` project on October 16, 2026: background shortcut options, shared playback, notification controls, localization resources, and Android requirements. The local APK inspected on that date was `RoutineRun-20261016-231531-release.apk`, version `1.2481.2315.33` (versionCode `1792181733`), Android API 23+, ARM64 only. Its copy in `RoutineRun Releases` matches the build file by SHA-256. On October 17, the owner supplied a newer APK link: `https://drive.google.com/file/d/1yQmpKuYfnqAX617FvVmg3RIUXpZFhF-O/view`. The download button uses this new link; its APK version and contents have not been independently inspected.
+Website content was checked against the sibling `RmSoftTimers2` project on October 16, 2026: background shortcut options, shared playback, notification controls, localization resources, and Android requirements. The local APK inspected on that date was `RoutineRun-20261016-231531-release.apk`, version `1.2481.2315.33` (versionCode `1792181733`), Android API 23+, ARM64 only. Its copy in `RoutineRun Releases` matches the build file by SHA-256. On October 18, the owner supplied a newer APK link: `https://drive.google.com/file/d/1jiozCikGamo3oRVfzwMROW0IPmjdfqze/view`. The download button uses this new link; its APK version and contents have not been independently inspected.
 
 - `assets/routinerun-icon.png` is the official Google Play icon from `RoutineRun.App.Maui/Resources/Store/GooglePlay/routine-run-play-icon-512.png`.
 - `assets/routinerun-brand.png` is the official feature graphic from the same directory.
