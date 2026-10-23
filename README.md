@@ -45,6 +45,8 @@ The October 23 icon guide uses the exact Android vector paths from `RmSoftTimers
 
 The home-page framework section is based on `rm7soft.Maui.Framework/docs/framework-guide.md` and that repository's README, read October 23. It describes the .NET 10 App, MAUI, and optional SQLite packages, Android/Windows targets, and their use in RoutineRun. Packages are privately hosted; the app template is still being revised. Keep public availability and platform claims tied to those sources.
 
+The full guide is available at `framework/framework-guide.md`, linked from the home-page framework section. This is a copy of the source guide; refresh it when the framework documentation changes. Its relative documentation links refer to other files in the framework repository.
+
 ## Private preview access
 
 - The website provides an email request and an "Open download" button for previously approved users. The button opens the restricted ARM64 APK in Google Drive; publishing its URL does not grant access. Separate x64 builds are linked by email when available. Requests include name, Android device or emulator/version, and a Google account email. Organization and evaluation purpose are explicitly optional; architecture (ARM64 or x64) is requested only if known. A Google account is required for the private Drive download, and visitors are told this before requesting access.
