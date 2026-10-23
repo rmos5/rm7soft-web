@@ -23,15 +23,27 @@ Pushes to the GitHub `main` branch automatically trigger Cloudflare Workers Buil
 
 Website content was checked against the sibling `RmSoftTimers2` project on October 16, 2026: background shortcut options, shared playback, notification controls, localization resources, and Android requirements. The local APK inspected on that date was `RoutineRun-20261016-231531-release.apk`, version `1.2481.2315.33` (versionCode `1792181733`), Android API 23+, ARM64 only. Its copy in `RoutineRun Releases` matches the build file by SHA-256. On October 18, the owner supplied a newer APK link: `https://drive.google.com/file/d/19geisBlnDY4MOKRV9ghPImaXnB2kcRVy/view`. The download button uses this new link; its APK version and contents have not been independently inspected.
 
-- `assets/routinerun-icon.png` is the official Google Play icon from `RoutineRun.App.Maui/Resources/Store/GooglePlay/routine-run-play-icon-512.png`.
+- `assets/routinerun-icon.png` is the official Google Play icon from `RoutineRun.App.Maui/Resources/Store/GooglePlay/routine-run-play-icon-512.png`, refreshed with the open-ring/Play mark on October 23, 2026.
 - `assets/routinerun-brand.png` is the official feature graphic from the same directory.
 - RoutineRun's brand blue is `#000CCC`.
 - RoutineRun is in development. Android preview requests go to `routinerun@rm7soft.com`; access is reviewed and granted individually.
-- Background shortcuts support routines and plans, with optional automatic start; routine shortcuts also offer Repeat. Pinning requires Android 8+, launcher support, and enabled notifications for background mode.
+- Background shortcuts support routines and plans, with optional automatic start; routine shortcuts also offer Repeat. Pinning requires Android 8+, launcher support, and enabled notifications for background mode. The October 23 source has separate **Pin app shortcut** and **Pin background shortcut** commands; background mode is no longer a checkbox in the pin dialog.
 - Expanded notifications offer Previous, Play/Pause, Next, Repeat, and Close. Navigation and Close are disabled while running; pause first. Automatic start is off by default. Do not promise survival after force-stop or device-specific task removal without device verification.
 - The old `routinerun-hero.png` illustration is not used: it is not a current app screenshot.
 
 When updating product details, verify them against the app source and replace imagery with official assets or actual screenshots.
+
+## Shortcut icon guide and framework section
+
+The October 23 icon guide uses the exact Android vector paths from `RmSoftTimers2/RoutineRun.App.Maui/Platforms/Android/Resources/drawable/routine_run_brand*.xml`, converted to SVG in `assets/shortcuts/`. The app and feature PNGs are copied directly from the current Google Play assets. No new logo was invented.
+
+- `open` uses `routine_run_brand_open`; `start` uses `routine_run_brand`.
+- Repeat variants use `routine_run_brand_open_repeat` or `routine_run_brand_start_repeat`, plus the separate `routine_run_brand_repeat` layer.
+- The guide shows standard routine blue `#1976D2`, plan blue `#000CCC`, and white. Background shortcuts invert foreground/background, as in `AndroidHomeScreenShortcutService.cs`. The rm7soft theme uses a different routine blue.
+- The SVG viewBox crops the adaptive canvas for a rounded launcher preview. Device masks and Android app badges vary. Existing pinned icons need recreating to pick up new artwork.
+- Font Awesome attribution and the source license are included alongside the SVGs.
+
+The home-page framework section is based on `rm7soft.Maui.Framework/docs/framework-guide.md` and that repository's README, read October 23. It describes the .NET 10 App, MAUI, and optional SQLite packages, Android/Windows targets, and their use in RoutineRun. Packages are privately hosted; the app template is still being revised. Keep public availability and platform claims tied to those sources.
 
 ## Private preview access
 
