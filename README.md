@@ -45,7 +45,9 @@ The October 23 icon guide uses the exact Android vector paths from `RmSoftTimers
 
 The home-page framework section is based on `rm7soft.Maui.Framework/docs/framework-guide.md` and that repository's README, read October 23. It describes the .NET 10 App, MAUI, and optional SQLite packages, Android/Windows targets, and their use in RoutineRun. Packages are privately hosted; the app template is still being revised. Keep public availability and platform claims tied to those sources.
 
-The full guide is available at `framework/framework-guide.md`, linked from the home-page framework section. This is a copy of the source guide; refresh it when the framework documentation changes. Its relative documentation links refer to other files in the framework repository.
+Framework has a dedicated page at `framework/index.html`, linked from every page's primary navigation. The home-page section is a short introduction. Primary menus show product/framework/support links; privacy and terms remain in the footer. Mobile menus wrap without sideways scrolling, and the sticky header has an opaque background.
+
+The full guide is available at `framework/framework-guide.md`, linked from both the home-page framework section and the framework page. This is a copy of the source guide; refresh it when the framework documentation changes. Its relative documentation links refer to other files in the framework repository.
 
 ## Private preview access
 
